@@ -1,5 +1,7 @@
 import { ChangeBg } from "./components/ChangeBg";
 import { Counter } from "./components/Counter";
+import { FetchAxios } from "./components/FetchAxios";
+import { FetchUsers } from "./components/FetchUsers";
 import { Navbar } from "./components/Navbar";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Counter />
       <Navbar />
       <ChangeBg />
+      <FetchUsers />
+      <FetchAxios />
     </>
   );
 }
