@@ -1,13 +1,15 @@
-import { Provider } from "react-redux";
-import store from "./store";
+import { ChangeBg } from "./components/ChangeBg";
 import { Counter } from "./components/Counter";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
-    <Provider store={store}>
+    <>
       <h1>Redux Toolkit</h1>
       <Counter />
-    </Provider>
+      <Navbar />
+      <ChangeBg />
+    </>
   );
 }
 
